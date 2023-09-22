@@ -11,9 +11,11 @@ import json
 import random
 from naver_login import get_auth_pop3
 
+from background import _DRIVER_PATH
+
 # adsf
 
-DRIVER_PATH = "/home/dgist/discord/dgist_discord/drivers/geckodriver"
+DRIVER_PATH = _DRIVER_PATH
 
 service = Service(executable_path=DRIVER_PATH)
 options = webdriver.FirefoxOptions()

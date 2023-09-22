@@ -1,8 +1,9 @@
 import re, poplib, email
 from email.header import decode_header, make_header
+from background import _userid, _userpw
 
-userid='dgistlogin'
-userpw='komaruN12#$'
+userid=_userid
+userpw=_userpw
 
 poplib._MAXLINE = 20480
 
